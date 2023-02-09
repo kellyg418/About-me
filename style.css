@@ -90,6 +90,7 @@ p {
 @media (max-width: 576px) {
   h1 {
     font-size: 50px;
+    line-height: 1.5;
   }
 
   h2 {
@@ -106,5 +107,9 @@ p {
 
   .email-link {
     font-size: 25px;
+  }
+
+  .project-gallery h2 {
+    line-height: 1.5;
   }
 }

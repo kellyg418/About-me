@@ -16,26 +16,34 @@ h3 {
 
 h1 {
   font-size: 96px;
+  font-family: "Tiro Devanagari Hindi", serif;
+  font-weight: bold;
 }
 
 h2 {
   font-size: 48px;
+  font-family: "Tiro Devanagari Hindi", serif;
 }
 
 h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
   font-size: 24px;
   opacity: 0.7;
 }
 
 p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
 }
 
 .navigation-links {
   display: flex;
   margin-top: 40px;
   justify-content: center;
+  font-family: "Tiro Devanagari Hindi", serif;
 }
 
 .navigation-links a {
@@ -45,16 +53,8 @@ p {
 .primary-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
+  font-family: "Tiro Devanagari Hindi", serif;
   color: white;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-
-.secondary-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
@@ -65,6 +65,7 @@ p {
   color: var(--primary-color);
   text-align: center;
   display: block;
+  font-family: "Tiro Devanagari Hindi", serif;
 }
 
 .about-paragraphs {
@@ -79,6 +80,7 @@ p {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
+  font-family: "Tiro Devanagari Hindi", serif;
   font-size: 28px;
   text-decoration: none;
 }

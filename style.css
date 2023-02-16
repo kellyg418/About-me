@@ -39,6 +39,10 @@ p {
   font-weight: bold;
 }
 
+.hero {
+  background: #f9f7fe;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;

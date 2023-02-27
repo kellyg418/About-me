@@ -32,7 +32,7 @@ h3 {
 
 p {
   font-weight: normal;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 30px;
 }
 
@@ -132,7 +132,7 @@ footer .social-links a:hover {
 }
 
 .content h2 {
-  font-size: 22px;
+  font-size: 18px;
   font-family: var(--default-font-family);
 }
 
@@ -147,7 +147,16 @@ footer .social-links a:hover {
 }
 
 .content p {
-  font-size: 14px;
+  font-size: 18px;
+}
+
+.content p a {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
+.content p a:hover {
+  text-decoration: underline;
 }
 
 .btn-branding {
@@ -170,6 +179,10 @@ footer .social-links a:hover {
 
 .project-desciption {
   padding: 120px 60px;
+}
+
+.logo {
+  max-height: 40px;
 }
 
 @media (max-width: 900px) {

@@ -1,8 +1,8 @@
 :root {
   --branding-color: #6c63ff;
   --secondary-color: #f9f7fe;
-  --heading-font-family: "Tiro Devanagari Hindi", serif;
-  --default-font-family: "Cormorant Garamond", serif;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -26,12 +26,12 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
 p {
-  font-weight: bold;
+  font-weight: normal;
   font-size: 22px;
   line-height: 30px;
 }
@@ -105,7 +105,7 @@ footer .social-links a:hover {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -123,7 +123,7 @@ footer .social-links a:hover {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -182,16 +182,12 @@ footer .social-links a:hover {
     font-size: 44px;
   }
 
-  h4 {
+  h3 {
     font-size: 26px;
   }
 
   p {
     font-size: 20px;
-  }
-
-  .hero {
-    padding: 80px 20px;
   }
 
   .content-container {
